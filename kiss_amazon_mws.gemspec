@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kresimir.bojcic@gmail.com"]
   spec.description   = %q{Sending updates to Amazon Marketplace Web Service}
   spec.summary       = %q{Just plugin Amazon account secrets and go!}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/drKreso/kiss_amazon_mws"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
