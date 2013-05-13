@@ -14,6 +14,7 @@ Add this line to your application's Gemfile:
 
 If you don't have any secretes you might wanna sign up [here](https://developer.amazonservices.com/)
 
+```ruby
 mws_config = {
   aws_access_key_id: "AKIAI4********",
   secret_access_key: "ZNC+tV/****aZATR7cDW5+*********9FLdLMDQM",
@@ -21,6 +22,7 @@ mws_config = {
   marketplace_id:    "ATVP*******ER",
   amazon_url:        "mws.amazonservices.com"
 }
+```
 
 2. Format collection with this attributes: [sku, price, quantity]
 
