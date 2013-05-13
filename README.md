@@ -10,9 +10,10 @@ Add this line to your application's Gemfile:
 
 ## Usage
 
-1. Put your secrets in config
+Put your secrets in config
+----------------
 
-If you don't have any secretes you might wanna sign up [here](https://developer.amazonservices.com/)
+If you don't have any secretes you might wanna sign up [here](https://developer.amazonservices.com/).
 
 ```ruby
 mws_config = {
@@ -24,7 +25,8 @@ mws_config = {
 }
 ```
 
-2. Format collection with this attributes: [sku, price, quantity]
+Format collection with this attributes: [sku, price, quantity]
+----------------
 
 ```ruby
 data = [
@@ -44,7 +46,8 @@ data = [
        ]
 ```
 
-3. Send to Amazon MWS
+Send to Amazon MWS
+-----------------
 
 ```ruby
 response = KissMWS.send_feed(data, mws_config)
